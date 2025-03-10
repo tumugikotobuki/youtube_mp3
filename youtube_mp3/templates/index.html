@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube MP3 Converter</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/ress@5.0.2/dist/ress.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+</head>
+<body>
+    <div class="heder-wrap">
+        <header>
+            <div class="header-box"></div>
+            <h1 class="header">YOUTUBE MP3 CONVERTER</h1>
+            <div class="drawer sidebar" id="sidebar">
+                <img src="../images/614504.webp" alt="" height="80px" width="80px" id="drawer">
+            </div>
+        </header>
+
+        <main>
+            <h1 class="title"></h1>
+            <form class="form" action="/download" method="POST">
+
+                <div class="form-item">
+                    <div class="form-name">
+                        <label class="youtube-url" for="youtube_url">YouTube url</label>
+                    </div>
+                    <input class="input-form" type="text" id="youtube_url" name="youtube_url" placeholder="https://youtu.be/" required autofocus>
+                </div>
+
+                <div class="form-item">
+                    <div class="form-name">
+                        <label class="file-name" for="custom_filename">Output file</label>
+                        </div>
+                    <input class="input-form" type="text" id="custom_filename" name="custom_filename" placeholder="Song title" required>
+                </div>
+
+                <div class="form-item">
+                    <div class="form-name">
+                        <label class="artist-name" for="artist_name">Artist</label>
+                    </div>
+                    <input class="input-form" type="text" id="artist_name" name="artist_name" placeholder="Artist">
+                </div>
+                
+                <div class="form-item">
+                    <div class="form-name">
+                        <label class="comment" for="comment">Comment</label>
+                    </div>
+                    <input class="input-form" type="text" id="comment" name="comment" placeholder="使用作品名 項目">
+                </div>
+
+                <div class="form-item">
+                    <input class="input-btn convert-btn" type="submit" value="変換" id="input-btn">
+                    <input class="input-btn" type="reset" value="リセット">
+                </div>
+
+                <!-- ローディング画面 -->
+                <div class="loading-none" id="loading">
+                    <div class="loading-item-none" id="loading-item">
+                    </div>
+                </div>
+
+            </form>
+        </main>
+    </div>
+
+    <!-- <section>
+        <ul id="script">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+        </ul>
+    </section> -->
+
+   <section>
+        <div class="howto">
+            <div class="howto-box"></div>
+        </div>
+        <div class="howto">
+            <div class="howto-box"></div>
+        </div>
+        <div class="howto">
+            <div class="howto-box"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer"></div>
+    </footer>
+
+    <div id="root"></div>
+    <script type="module" src="{{ url_for('static', filename='script.js') }}"></script>
+    <!-- <script type="module" src="{{ url_for('static', filename='react.js') }}"></script> -->
+</body>
+</html>
+
