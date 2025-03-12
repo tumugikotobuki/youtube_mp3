@@ -1,7 +1,10 @@
 <div id="top"></div>
 
 ## 使用技術一覧
-
+<img src="https://img.shields.io/badge/-javascript-888888.svg?logo=javascript&style=plastic">
+<img src="https://img.shields.io/badge/-python-888888.svg?logo=python&style=plastic">
+<img src="https://img.shields.io/badge/-html-888888.svg?logo=html&style=plastic">
+<img src="https://img.shields.io/badge/-css-888888.svg?logo=css&style=plastic">
 
   <img src="https://img.shields.io/badge/-javascript-888888.svg?logo=javascript&style=plastic">
   <img src="https://img.shields.io/badge/-Python-F2C63C.svg?logo=python&style=for-the-badge">
