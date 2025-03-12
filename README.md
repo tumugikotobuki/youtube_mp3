@@ -56,23 +56,20 @@ React、DRF、Terraform を勉強する際に使用できるテンプレート
 
 | 言語・フレームワーク  | 
 | --------------------- |
-| Python                | 3.11.4     |
-| Django                | 4.2.1      |
-| Django Rest Framework | 3.14.0     |
-| MySQL                 | 8.0        |
-| Node.js               | 16.17.0    |
-| React                 | 18.2.0     |
-| Next.js               | 13.4.6     |
-| Terraform             | 1.3.6      |
+| Python                |
+| flask                |
+| html |
+| css                 |
+| javascript               |
 
-その他のパッケージのバージョンは pyproject.toml と package.json を参照してください
+
 
 <p align="right">(<a href="#top">トップへ</a>)</p>
 
 ## ディレクトリ構成
 
 <!-- Treeコマンドを使ってディレクトリ構成を記載 -->
-
+<p>
 ❯ tree -a -I "node_modules|.next|.git|.pytest_cache|static" -L 2
 .
 ├── .devcontainer
