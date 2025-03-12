@@ -3,7 +3,7 @@
 ## 使用技術一覧
 
 
-
+  <img src="https://img.shields.io/badge/-javascript-888888.svg?logo=javascript&style=plastic">
   <img src="https://img.shields.io/badge/-Python-F2C63C.svg?logo=python&style=for-the-badge">
   <img src="https://img.shields.io/badge/-python-111.svg?logo=python&style=%E3%83%9D%E3%83%83%E3%83%97%E3%82%A2%E3%82%A6%E3%83%88">
 
