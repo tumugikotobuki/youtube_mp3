@@ -17,28 +17,18 @@
 3. [ディレクトリ構成](#ディレクトリ構成)
 4. [使用方法](#使用方法)
 
-<!-- READMEの作成方法のドキュメントのリンク -->
-<br />
-<div align="right">
-    <a href="READMEの作成方法のリンク"><strong>READMEの作成方法 »</strong></a>
-</div>
-<br />
-<!-- Dockerfileのドキュメントのリンク -->
-<div align="right">
-    <a href="Dockerfileの詳細リンク"><strong>Dockerfileの詳細 »</strong></a>
-</div>
-<br />
+
 <!-- プロジェクト名を記載 -->
 
 ## プロジェクト名
 
-React、DRF、Terraform のテンプレートリポジトリ
+YOUYUBE MP3 COMVERTER
 
 <!-- プロジェクトについて -->
 
 ## プロジェクトについて
 
-React、DRF、Terraform を勉強する際に使用できるテンプレート
+趣味であるDJで使用する楽曲をダウンロードする際、既存のサイトでは音質が悪い・ダウンロードに時間がかかる・ダウンロードに失敗するといったことが起こります。この経験から自分専用のサイトを作ろうと考えAIの力を借りながらも実際に作成しました。
 
 <!-- プロジェクトの概要を記載 -->
 
